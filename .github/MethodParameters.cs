@@ -40,12 +40,29 @@ namespace MethodsParameters
             Console.WriteLine("You have ordered" + num + "eggs cooked "+ style + ".\n");
         }
 
+        // Using Defalts for Parameters
+        static void MakeBurger(int num = 1)
+        {
+            Console.WriteLine("I am going to cook " + num + "hamburger.\n");
+        }
+
+        // Named Arguments
+        static void AllMyChildren(string child1, string child2, string child3)
+        {
+            Console.WriteLine("My favorite child is " + child3);
+        }
 
         static void Main(string[] args)
         {
             //MyMethod();
             //DoubleUp();
-            MakePancakes();
+            //MakePancakes();
+            //MakeEggs(10, "sunny side up");
+            MakeBurger();
+            MakeBurger(10);
+            AllMyChildren(child3: "Steve", child2: "Susan", child1: "Chewbacca");
+            
+
         }
     }
 
