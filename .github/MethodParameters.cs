@@ -52,6 +52,23 @@ namespace MethodsParameters
             Console.WriteLine("My favorite child is " + child3);
         }
 
+        //METHOD OVERLOADING
+        static int FindSum(Int x, int y)
+        {
+            int sum = x + y;
+            Console.WriteLine("Sum: " + sum);
+            return sum;
+        }
+        
+        
+        // Find Sum of Double
+        static double FindSum(double x, double, y)
+        {
+            double sum = x + y;
+            Console.WriteLine("Sum: " + sum);
+            return sum;
+        }
+        
         static void Main(string[] args)
         {
             //MyMethod();
@@ -61,7 +78,12 @@ namespace MethodsParameters
             MakeBurger();
             MakeBurger(10);
             AllMyChildren(child3: "Steve", child2: "Susan", child1: "Chewbacca");
-            
+            FindSum(1, 5); // TWO INTEGERS
+            FindSum(9.5, 2.4); // TWO DOUBLES
+            FindSum(5, 2.5) // ONE OF EACH
+
+
+
 
         }
     }
