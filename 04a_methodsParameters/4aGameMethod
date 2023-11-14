@@ -16,7 +16,8 @@ namespace GameMethod
             string characterNames = "Venture and Zephyr"
 
             static void (character1 and character2);
-
+            Console.WriteLine("charcter1" "Name: Venture" "Species: Cat" "Gender: Female");
+            Console.WriteLine("character2" "Name: Zephyr" "Species: Cat" "Gender: Male");
 
           }
 
