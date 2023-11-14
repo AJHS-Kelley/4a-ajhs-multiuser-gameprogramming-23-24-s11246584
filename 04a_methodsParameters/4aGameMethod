@@ -7,10 +7,21 @@ namespace GameMethod
     {
         static void Main(string[] args)
         {
-           Console.WriteLine("Welcome to Venture");
-           
-
+           Console.WriteLine("Welcome to Animal Verse!");
         }
+
+        
+          static void MethodOne()
+          {
+            string characterNames = "Venture and Zephyr"
+
+            static void (character1 and character2);
+
+
+          }
+
+
+        
     
     }
 }
