@@ -1,0 +1,16 @@
+// Takiyah Travis, Program Template, v0.01
+using System;
+
+namespace GameMethod
+{
+    class GameMethod
+    {
+        static void Main(string[] args)
+        {
+           Console.WriteLine("Welcome to Venture");
+           
+
+        }
+    
+    }
+}
