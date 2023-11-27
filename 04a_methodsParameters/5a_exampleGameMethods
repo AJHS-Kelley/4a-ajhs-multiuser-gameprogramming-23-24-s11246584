@@ -28,14 +28,17 @@ namespace GameMethod
           {
             // Keys
             
-            string (left arrow = move left , right arrow = move right , space / up arrow = jump , down arrow = crouch , shift = sprint , attack = left click);
+            string (left arrow = move left , right arrow = move right , space / up arrow = jump , down arrow = crouch , shift = sprint , attack (bite/scratch) = left click);
 
             
           }
           
+          static void MethodThree()
+          // Points / Coins
 
-
+          // You get coins and points by killing enemies
+          
         
-    
     }
+
 }
