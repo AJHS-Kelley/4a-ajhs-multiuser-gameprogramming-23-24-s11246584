@@ -34,10 +34,26 @@ namespace GameMethod
           }
           
           static void MethodThree()
-          // Points / Coins
+          {
+            // Character Stats
 
-          // You get coins and points by killing enemies
+            // Venture
+
+            int jumpHeight = 3
+            int runSpeed = 3
+            int attackStrength = 12
+
+            // Zephyr
+
+            int jumpHeight = 6
+            int runSpeed 6
+            int attackStrength = 5
+
+          }  
+
           
+          
+
         
     }
 
