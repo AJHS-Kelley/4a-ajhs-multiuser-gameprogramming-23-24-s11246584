@@ -45,8 +45,8 @@ namespace GameMethod
 
             // Zephyr
 
-            int jumpHeight = 6
-            int runSpeed 6
+            int jumpHeight = 7
+            int runSpeed 7
             int attackStrength = 5
 
           }  
