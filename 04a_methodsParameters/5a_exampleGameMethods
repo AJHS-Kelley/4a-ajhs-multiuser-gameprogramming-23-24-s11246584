@@ -59,9 +59,9 @@ namespace GameMethod
             int character1Health = 25;
             int character2Health = 15;
 
-
-
           }
+
+          
     }
 
 }         
