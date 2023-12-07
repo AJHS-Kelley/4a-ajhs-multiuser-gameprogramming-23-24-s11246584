@@ -39,27 +39,29 @@ namespace GameMethod
 
             // Venture
 
-            int jumpHeight = 3
-            int runSpeed = 3
-            int attackStrength = 12
+            int jumpHeight = 3;
+            int runSpeed = 3;
+            int attackStrength = 12;
 
             // Zephyr
 
-            int jumpHeight = 7
-            int runSpeed 7
-            int attackStrength = 5
+            int jumpHeight = 7;
+            int runSpeed 7;
+            int attackStrength = 5;
 
           }  
 
           static void MethodFour()
           {
-            // Death(s)
+        
+            // Health
+
+            int character1Health = 25;
+            int character2Health = 15;
+
+
 
           }
-          
-
-          
-                  
     }
 
-}
+}         
