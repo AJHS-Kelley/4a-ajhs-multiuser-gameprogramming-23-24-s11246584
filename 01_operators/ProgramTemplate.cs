@@ -53,7 +53,17 @@ namespace ReviewProject
            int myInt = (int) myDouble;
 
            // Conversation Methods
-           
+           Convert.ToString() // String
+           string myString "I want to go home, school sucks"; 
+
+           Convert.ToDouble() // Double
+           double myDouble = 2.957204865837206;
+
+           Convert.ToInt32() // Integer
+           int myInt = 321;
+
+           Convert.ToInt64() // Long
+           long myLong = -7,694,380,204,802
 
 
         }
