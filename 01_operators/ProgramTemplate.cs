@@ -65,6 +65,36 @@ namespace ReviewProject
            Convert.ToInt64() // Long
            long myLong = -7,694,380,204,802
 
+           // Switch Statement
+           int dayOfWeek = 7;
+           switch (dayOfWeek)
+           {
+                case 1:
+                    Console.WriteLine("The day is Sunday.\n");
+                    break;
+                case 2:
+                     Console.WriteLine("The day is Monday.\n");
+                    break;
+                case 3:
+                    Console.WriteLine("The day is Tuesday.\n");
+                    break;
+                case 4:
+                    Console.WriteLine("The day is Wensaday.\n");
+                    break;
+                case 5:
+                    Console.WriteLine("The day is Thursday.\n");
+                    break;
+                case 6:
+                    Console.WriteLine("The day is Friday.\n");
+                    break;
+                case 7:
+                    Console.WriteLine("No match found.\n");
+                    break;
+                default:
+                    Console.WriteLine("No match found,\n");
+                    break;
+            }
+
 
         }
     
