@@ -39,6 +39,21 @@ namespace ReviewProject
            // 2-bytes
            char myChar = 'C';
            
+           // Type Casting -- changing one data type to another.
+           // IMPLICIT -- happens automatically when going smaller -> larger
+           // char -> int -> long -> float -> double
+
+           int myInt = 9;
+           double my Double = myInt;
+           Console.WriteLine(myDouble);
+
+           // EXPLICIT --  Must be done manually when going larger -> smaller.
+           // double -> float -> long -> int -> char
+           double exampleDouble = 9.869273502D;
+           int myInt = (int) myDouble;
+
+           // Conversation Methods
+           
 
 
         }
