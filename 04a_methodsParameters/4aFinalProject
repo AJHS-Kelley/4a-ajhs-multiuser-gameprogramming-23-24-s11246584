@@ -1,0 +1,43 @@
+// Takiyah Travis, Program Template, v0.01
+using System;
+
+namespace GameMethod
+{
+    class GameMethod
+    {
+        static void Main(string[] args)
+        {
+           Console.WriteLine("Welcome to Animal Verse!");
+        }
+
+        
+          static void MethodOne()
+          {
+            string characterNames = "Venture and Zephyr" "Mask and Cream"
+
+            static void (character1 and character2);
+            Console.WriteLine("charcter1" "Name: Venture" "Species: Cat" "Gender: Female");
+            Console.WriteLine("character2" "Name: Zephyr" "Species: Cat" "Gender: Male");
+
+            Console.WriteLine("character3" "Name: Mask" "Species: Cat" "Gender: Male");
+            Console.WriteLine("character4" "Name: Cream" "Species: Cat" "Gender: Female");
+        
+
+          }
+
+          {
+            Console.WriteLine("VENTURE");
+
+            int jumpHeight = 3;
+            int runSpeed = 3;
+            int attackStrength = 12;
+            
+            Move = Input.GetAxis("Horizontal");
+
+          }
+
+
+        
+    
+    }
+}
